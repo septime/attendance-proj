@@ -1,0 +1,17 @@
+#selectList {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+#inputEmail {
+    margin-bottom: 5px;
+}
+
+.alert {
+    max-width: 330px;
+}
+
+#teacher_name {
+    height: 0;
+    display: none;
+}

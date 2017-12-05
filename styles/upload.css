@@ -1,0 +1,32 @@
+h3{
+    padding-bottom: 10px;
+}
+
+div .form-group {
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;   
+}
+
+#choice {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+input[type=file]{
+    position: absolute;
+    transform: scale(20);
+    letter-spacing: 10em;     /* IE 9 fix */
+    -ms-transform: scale(20); /* IE 9 fix */
+    opacity: 0;
+    cursor: pointer;
+}
+
+#upload-submit {
+    margin-top: 0;
+}
+
+
+
+
+
