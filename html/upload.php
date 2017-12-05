@@ -53,30 +53,29 @@
             
         <!--timetable upload form-->
           <form action="" method="post" class="form" enctype="multipart/form-data" id="upload-files">
-              <h2 class="form-signin-heading">להעלות מערכת שעות</h2>
+              <h3 class="form-signin-heading">להעלות מערכת שעות</h2>
               <label>בחר/י קבצים מהמחשב שלך</label>
               <div class="form-group">
-                    <button type="button" class="btn btn-lg btn-default" id="choice">
+                    <button type="button" class="btn btn-md btn-default" id="choice">
                       בחר/י קבצים</button>
                     <span id="file-list">לא נבחר קובץ</span>
                     <input type="file" accept='text/csv' name="files[]" id="upload-files" multiple onchange='uploadFile(this)'>
                   </div>
-              <button type="submit" class="btn btn-lg btn-primary" id="upload-submit" name="loadTimetable">
+              <button type="submit" class="btn btn-md btn-primary" id="upload-submit" name="loadTimetable">
                    להעלות מערכת שעות</button>
-              
           </form>
             <?php include("../php/upload_timetable.php") ?>
         <!--students' list upload form-->
           <form action="" method="post" class="form" enctype="multipart/form-data" id="upload-files">
-              <h2 class="form-signin-heading">להעלות רשימת סטודנטים</h2>
+              <h3 class="form-signin-heading">להעלות רשימת סטודנטים</h2>
               <label>בחר/י קבצים מהמחשב שלך</label>
               <div class="form-group">
-                    <button type="button" class="btn btn-lg btn-default" id="choice">
+                    <button type="button" class="btn btn-md btn-default" id="choice">
                       בחר/י קבצים</button>
                     <span id="file-list-st">לא נבחר קובץ</span>
                     <input type="file" accept='text/csv' name="files[]" id="upload-files" multiple onchange='uploadFileSt(this)'>
                   </div>
-              <button type="submit" class="btn btn-lg btn-primary" id="upload-submit" name="loadStudents">
+              <button type="submit" class="btn btn-md btn-primary" id="upload-submit" name="loadStudents">
                   להעלות רשימת סטודנטים</button>
               
           </form>

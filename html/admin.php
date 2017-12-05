@@ -11,7 +11,7 @@
       <link href="../styles/signin.css" rel="stylesheet">
       <link href="../styles/admin.css" rel="stylesheet">
       <script src="../scripts/jquery-3.2.1.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
       <script src="../scripts/checkTeacher.js"></script>
     
     <!--[if lt IE 9]>
@@ -46,7 +46,7 @@
               </select>
         <input type="text" name="teacher" id="teacher_name" class="form-control" placeholder="שם ושם משפחה של מרצה">
         <!--button-->
-        <button class="btn btn-lg btn-success btn-block" type="submit" name="addUser">להוסיף</button>
+        <button class="btn btn-md btn-success btn-block" type="submit" name="addUser">להוסיף</button>
         </form>
           
         <?php require_once("../php/addDeleteUser.php") ?>
@@ -58,7 +58,7 @@
         <label for="inputEmail" class="sr-only">Email</label>
         <input type="email" name="email_del" id="inputEmail" class="form-control" placeholder='דוא"ל'>
         <!--button-->
-        <button class="btn btn-lg btn-danger btn-block" type="submit" name="deleteUser">למחוק</button>
+        <button class="btn btn-md btn-danger btn-block" type="submit" name="deleteUser">למחוק</button>
         </form>
     
     </div> <!--end of container-->

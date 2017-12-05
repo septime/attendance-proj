@@ -50,9 +50,10 @@
                     <input type="text" class="form-control" id="student-id" placeholder="234567890" name="id" minlength="8" maxlength="10" onkeypress="return event.charCode > 47 && event.charCode < 58;" required autofocus>
                     <button class="btn btn-primary btn-lg" type="submit" name="showStudent">להציג נתוני נוכחות</button>
                     </form>
-                    <?php include("../php/editStudent.php") ?>
+                    
                 </div>
           </div>
+        <?php require_once("../php/editStudent.php") ?>
           </div>
     </div> <!--end of page not including the footer-->
     <!--footer-->

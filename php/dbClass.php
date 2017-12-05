@@ -30,10 +30,9 @@ private function connect() {
 	$dsn="mysql:host=$this->host;dbname=$this->db;charset=$this->charset";
     try {
         $this->connection=new PDO($dsn,$this->user,$this->pass,$this->opt);
-    } catch (mysqli_sql_exception $e) {
-        throw $e;
-    }
-	
+        }catch (mysqli_sql_exception $e) {
+            throw $e;
+            }
 	}
 //disconnect from the database
 public function disconnect() {
