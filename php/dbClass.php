@@ -16,8 +16,8 @@ PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC);
 private $connection;
 //mysqli_report(MYSQLI_REPORT_STRICT);
 //constructor
-public function __construct(string $host="localhost",string $db="attendanceDB",
-							string $charset="utf8",string $user="root",string $pass="")
+public function __construct(string $host="localhost",string $db="id3884973_attendancedb",
+							string $charset="utf8",string $user="id3884973_septime",string $pass="4characterslong")
 	{
 		$this->host=$host;
 		$this->db=$db;
