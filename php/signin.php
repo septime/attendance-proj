@@ -1,10 +1,7 @@
 <?php
 require_once("dbClass.php");
 $db = new dbClass();
-
-
-
-                            
+                      
 if(isset($_POST['enter'])) {
     $email = $_POST['email'];
     $pswd = $_POST['pswd'];

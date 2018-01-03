@@ -79,6 +79,8 @@ public function checkUser($email) {
     else return false;
 }
     
+
+    
 //check timetable's existence in the DB by students' group
 public function checkTimetable($group) {
     $this->connect();
