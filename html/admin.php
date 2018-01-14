@@ -49,7 +49,7 @@
         <button class="btn btn-md btn-success btn-block" type="submit" name="addUser">להוסיף</button>
         </form>
           
-        <?php require_once("../php/addDeleteUser.php") ?>
+        <?php require("../php/addDeleteUser.php") ?>
           
         <!--bottom form -- delete user-->
         <form class="form-signin" action="" method="post">

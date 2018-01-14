@@ -17,7 +17,7 @@ private $connection;
 //mysqli_report(MYSQLI_REPORT_STRICT);
 //constructor
 public function __construct(string $host="localhost",string $db="id3884973_attendancedb",
-							string $charset="utf8",string $user="id3884973_septime",string $pass="4characterslong")
+							string $charset="utf8",string $user="id3884973_septime",string $pass="4charslong")
 	{
 		$this->host=$host;
 		$this->db=$db;

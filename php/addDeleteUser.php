@@ -54,8 +54,8 @@ if(isset($_POST['addUser'])) { //if "add user" button has been clicked
 function sendMail($email,$pswd) {
         //send generated password to the provided email
         $subject = 'ברוכים הבאים למערכת ניהול נוכחות';
-        $message = "סיסמה שלך לכניסה למערכת: $pswd";
-        $headers = 'From: webmaster@example.com' . "\r\n" .
+        $message = "Your password for the website is: $pswd";
+        $headers = 'From: webmaster@attendance-app.com' . "\r\n" .
             'X-Mailer: PHP/' . phpversion();
         mail($email, $subject, $message, $headers);
     }
