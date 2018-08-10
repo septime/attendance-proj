@@ -22,7 +22,7 @@ if (isset($_POST['showStudent'])&&strlen($_POST['id'])>0) {
             $table .= "<td>$date</td>";
             $table .= "<td><input type='checkbox' name=checked[] value=$class></td></tr>";
         }
-        $table .= "</table><button class='btn btn-primary btn-lg' type='submit' name='changeAttendance'>לבצע שינויים</button></form>";
+        $table .= "</table><button class='btn btn-primary btn-lg btn-block' type='submit' name='changeAttendance'>בצע שינויים</button></form>";
         echo $table;  
     }
 }

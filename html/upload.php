@@ -50,9 +50,9 @@
             <h3>העלאת קבצים</h3>
             
         <!--timetable upload form-->
-          <form action="" method="post" class="form" enctype="multipart/form-data" id="upload-files">
+          <form class="form" action="" method="post" enctype="multipart/form-data" id="upload-files">
               <h3 class="form-signin-heading">להעלות מערכת שעות</h3>
-              <label>בחר/י קבצים מהמחשב שלך</label>
+              
               <div class="form-group">
                     <button type="button" class="btn btn-md btn-default" id="choice">
                       בחר/י קבצים</button>
@@ -66,7 +66,7 @@
         <!--students' list upload form-->
           <form action="" method="post" class="form" enctype="multipart/form-data" id="upload-files">
               <h3 class="form-signin-heading">להעלות רשימת סטודנטים</h3>
-              <label>בחר/י קבצים מהמחשב שלך</label>
+              
               <div class="form-group">
                     <button type="button" class="btn btn-md btn-default" id="choice">
                       בחר/י קבצים</button>
