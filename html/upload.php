@@ -9,7 +9,6 @@
       <link href="../styles/main.css" rel="stylesheet">
       <link href="../styles/secretaries-main.css" rel="stylesheet">
       <link href="../styles/upload.css" rel="stylesheet">
-      <link href="dropzone-4.3.0/dist/dropzone.css" rel="stylesheet">
       <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -19,7 +18,6 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../scripts/upload.js"></script>
     <script src="../scripts/uploadSt.js"></script>
-    <script src="dropzone-4.3.0/dist/dropzone.js"></script>
   </head>
     
 <body>
@@ -53,7 +51,7 @@
             
         <!--timetable upload form-->
           <form action="" method="post" class="form" enctype="multipart/form-data" id="upload-files">
-              <h3 class="form-signin-heading">להעלות מערכת שעות</h2>
+              <h3 class="form-signin-heading">להעלות מערכת שעות</h3>
               <label>בחר/י קבצים מהמחשב שלך</label>
               <div class="form-group">
                     <button type="button" class="btn btn-md btn-default" id="choice">
@@ -67,7 +65,7 @@
             <?php include("../php/upload_timetable.php") ?>
         <!--students' list upload form-->
           <form action="" method="post" class="form" enctype="multipart/form-data" id="upload-files">
-              <h3 class="form-signin-heading">להעלות רשימת סטודנטים</h2>
+              <h3 class="form-signin-heading">להעלות רשימת סטודנטים</h3>
               <label>בחר/י קבצים מהמחשב שלך</label>
               <div class="form-group">
                     <button type="button" class="btn btn-md btn-default" id="choice">
